@@ -1,5 +1,6 @@
 packages:
   - package: dbt-labs/dbt_utils
     version: [">=0.8.0", "<0.9.0"]
-  - package: elementary-data/elementary
-    version: 0.10.0
+  - git: https://github.com/ntnhaatj/dbt-data-reliability.git
+    revision: 0.10.0-duckdb 
+
